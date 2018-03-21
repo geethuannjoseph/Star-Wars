@@ -23,6 +23,7 @@ export default class LoginPage extends PureComponent{
 		this.setState({password:e.target.value})
 	}
 	loginAction(){
+		this.props.loginError(false);
 		this.props.loggingIn(true);
 		axios.get("https://swapi.co/api/people")
 			.then((response)=>{
