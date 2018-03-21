@@ -1,0 +1,85 @@
+@media all and (max-width: 699px) {
+  #loginContainer{
+    width:500px;
+  }
+}
+#loginButton{
+	width:100%;
+}
+#loginContainer{
+	margin: auto;
+    padding: 25px;
+    width: 27%;
+    border: 1px solid black;
+    margin-top: 10%;
+    background:white;
+    opacity: 0.9;
+}
+h2{
+	color:#2a70bb;
+}
+html{
+    min-height:100%;
+}
+body{
+    height: 100%;
+    background-image: url('/main/assets/bgimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.showBlock{
+	display:block;
+}
+.hideBlock{
+	display:none;
+}
+#wait {
+    width: 100%;
+    cursor: wait;
+}
+/*#login{
+    background-image: url('/main/assets/bgimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#home{
+    background-image: url('/main/assets/home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+#App,
+#app,
+#login,
+#home{
+    height:100%;
+}
+.header{
+    height: 44px;
+    background: linear-gradient(#0573e8,#326cab);
+    color:white;
+}
+#welcome{
+    float:right;
+    margin-right:31px;
+}
+#searchPlanets{
+    background:##e6dddd;
+    width: 254px;
+    margin-top: -11px;
+    float: right;
+}
+#planetDetails{
+    display:flex;
+    flex-wrap: wrap;
+}
+.planet{
+    background: linear-gradient(orange,#ff6900,#714b07);
+    margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 55%;
+    width:250px;
+    height:250px;
+    line-height: 250px;
+    font-size:37px;
+}
